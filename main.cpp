@@ -56,4 +56,17 @@ SerializeCardVisitor
     visit(SkillCard)
     -> json
 
+
+dir structure
+dom
+    card
+        AttackCard
+        SkillCard
+    Deck
+    Object
+
+visitor
+    serialize
+        SerializeVisitor
+        SerializeCardVisitor
 */
